@@ -386,8 +386,8 @@ function Card({ weatherData, locationName, isLoading, error, tempUnit, windUnit,
         <main className="w-[80%] m-auto py-4 text-center">
           <h3 className="text-3xl mb-3 font-bold mt-4">{locationName}</h3>
           <p className="text-lg mb-2">{currentDate}</p>
-          <ul className="flex items-center justify-between m-auto mb-5 ">
-            <img classame="w-30" src={getIconFromCode(current.weather_code)} alt="current weather" />
+          <ul className="flex items-center justify-between m-auto mb-5">
+            <img className="w-30" src={getIconFromCode(current.weather_code)} alt="current weather" />
             <h1 className="text-6xl">{Math.round(current.temperature_2m)}{tempSymbol}</h1>
           </ul>
         </main>

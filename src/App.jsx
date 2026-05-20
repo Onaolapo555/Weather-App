@@ -345,9 +345,9 @@ function Card({ weatherData, locationName, isLoading, error, tempUnit, windUnit,
   </div>
   <div className=' w-[95%] m-auto grid grid-cols-2 lg:grid-cols-4 gap-4 mb-15 '>
     <div className='animate-pulse bg-[#25253f] lg:h-40  h-20 rounded-md'></div>
-    <div className='animate-pulse bg-[#25253f] lg:h-40  h-20 '></div>
-    <div className='animate-pulse bg-[#25253f] lg:h-40 h-20 '></div>
-    <div className='animate-pulse  bg-[#25253f] lg:h-40  h-20 '></div>
+    <div className='animate-pulse bg-[#25253f] lg:h-40  h-20 rounded-md '></div>
+    <div className='animate-pulse bg-[#25253f] lg:h-40 h-20 rounded-md'></div>
+    <div className='animate-pulse  bg-[#25253f] lg:h-40  h-20  rounded-md'></div>
   </div>
   <div className='w-[95%] m-auto grid grid-cols-3 lg:grid-cols-7 gap-4 mb-20' >
     <div className=' h-40 lg:h-50  rounded-md animate-pulse bg-[#25253f] '></div>
